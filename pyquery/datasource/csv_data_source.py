@@ -7,8 +7,6 @@ import pyarrow
 from pyquery.datasource.data_source import DataSource
 from pyquery.datatypes import ArrowFieldVector, ArrowTypes, Field, RecordBatch, Schema
 
-_Record = Tuple[Any, ...]
-
 
 class CsvDataSource(DataSource):
     def __init__(
